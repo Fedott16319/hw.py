@@ -4,7 +4,7 @@ from random import randint
 
 def list(j):
     list = []
-    for i in range(n):
+    for i in range(n)
         list.append(randint(-j, j))
     return list
 

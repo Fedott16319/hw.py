@@ -3,11 +3,11 @@
 # - 6,782 -> 23
 # - 0,56 -> 11
 
-def summa (number):
+def summa(number):
     summa = 0
     for i in number:
         if i != '.':
             summa = summa + int(i)
     return summa
 number = input('Введите вещественное число: ')
-print (sum(number))
+print(summa(number))
